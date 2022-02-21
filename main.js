@@ -100,7 +100,7 @@ callButton.onclick = async() => {
 	// Listen for remote answer
 	callDoc.onSnapshot((snapshot) => {
 		const data = snapshot.data();
-		if (!pc.currentRemoteDescription && data ? .answer) {
+		if (!pc.currentRemoteDescription && data?.answer) {
 			const answerDescription = new RTCSessionDescription(data.answer);
 			pc.setRemoteDescription(answerDescription);
 		}
