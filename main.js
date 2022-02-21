@@ -17,17 +17,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-	apiKey: "AIzaSyAgvQqOxBPuG6H_244Gp-qcLe92PNn6yAs",
-	authDomain: "my-project-1521644632076.firebaseapp.com",
-	databaseURL: "https://my-project-1521644632076-default-rtdb.firebaseio.com",
-	projectId: "my-project-1521644632076",
-	storageBucket: "my-project-1521644632076.appspot.com",
-	messagingSenderId: "661640071226",
-	appId: "1:661640071226:web:7abe7b1cfeb5907a46cd03"
-};
-
 
 
 
